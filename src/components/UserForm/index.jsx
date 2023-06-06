@@ -1,6 +1,8 @@
 const UserForm = () => {
     return(
-        <div>...</div>
+        <div>
+            <h2>UserForm</h2>
+        </div>
     )
 }
 
