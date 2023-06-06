@@ -5,15 +5,13 @@ import Register from './pages/Register'
 
 const App = () => {
   return(
-    <>
-      <div>
+      <div className='bg-slate-500 h-full'>
         <Routes>
           <Route path='/' element={<h1>Home</h1>} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
         </Routes>
       </div>
-    </>
   )
 }
 
