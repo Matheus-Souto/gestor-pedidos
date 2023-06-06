@@ -1,3 +1,6 @@
+// Components
+import { GrFormNext, GrFormPrevious } from 'react-icons/gr'
+
 const RegisterArea = () => {
     return (
       <div className="w-screen h-screen bg-slate-600">
@@ -8,12 +11,15 @@ const RegisterArea = () => {
         <div>
             <p>etapas</p>
             <form>
+                <div></div>
                 <div>
                     <button type="button">
+                        <GrFormPrevious />
                         <span>Voltar</span>
                     </button>
                     <button type="submit">
                         <span>Avançar</span>
+                        <GrFormNext />
                     </button>
                 </div>
             </form>
