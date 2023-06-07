@@ -5,7 +5,7 @@ import Register from './pages/Register'
 
 const App = () => {
   return(
-      <div className='bg-slate-500 h-full'>
+      <div className='bg-slate-600 h-full'>
         <Routes>
           <Route path='/' element={<h1>Home</h1>} />
           <Route path='/login' element={<Login />} />

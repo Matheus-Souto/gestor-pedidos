@@ -15,7 +15,7 @@ const RegisterArea = () => {
   const { currentStep, currentComponent, changeStep, isLastStep, isFirstStep } = useForm(formComponents)
 
   return (
-    <div className="container mx-auto flex flex-col justify-center items-center px-4 w-screen h-screen bg-slate-600">
+    <div className="container h-full mx-auto flex flex-col justify-center items-center px-4 py-10 bg-slate-600">
       <div className="w-full flex flex-col justify-center bg-slate-900/40 py-14 px-5 max-w-lg shadow-lg shadow-black/50">
         <div>
           <h1 className='text-3xl text-white font-bold text-center pt-4 sm:text-4xl' >Registre o Seu Delivery!</h1>

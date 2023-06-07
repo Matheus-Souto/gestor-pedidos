@@ -1,6 +1,6 @@
 const DeliveryForm = () => {
     return(
-        <div>...</div>
+        <div className="">...</div>
     )
 }
 
